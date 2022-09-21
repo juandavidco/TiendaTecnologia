@@ -1,0 +1,154 @@
+.banner{
+    background-image: url("../img/fotobanner.jpg");
+    padding: 15% 30% 25% 8%;
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index:1;
+}
+
+.banner::after{
+    content: '';
+    height: 100%;
+    width:100%;
+    background-color: black;
+    position:absolute;
+    top:0;
+    left:0;
+    opacity: 0.45;
+    z-index: -1;
+}
+
+.fuente{
+    font-family: 'Kanit', sans-serif;
+
+
+}
+
+/* --------------------- *\
+      ESTILO
+\* --------------------- */
+
+body{
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.text-entrada{
+    color: #EE2B7B;
+}
+.btn-cesde{
+    background-color: #EE2B7B;
+    color: white;
+
+}
+.btn-cesde:hover{
+    background-color: #ee87b2;
+}
+
+#header img{
+    width: 130px;
+}
+
+.btn-outline-cesde1{
+    background-color: #421caa;
+    color: white;
+}
+.btn-outline-cesde1:hover{
+    background-color: #7751dd;
+}
+
+#main .carousel-inner img {
+  max-height: 70vh;
+  object-fit: cover;
+}
+
+.carousel {
+    transition: transform 1s ease, opacity .5s ease-out;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0 , 0, 0.5);
+    color: white;
+    display: grid;  
+   
+} 
+#carousel .overlay .container{
+    align-items: center;
+    display: grid;
+} 
+
+
+/* --------------------- *\
+      Nuevo Teatro
+\* --------------------- */
+
+#place-time {
+    background-color: var(--secondary-color);
+    color: var(--just-white);
+    background-color: black;
+    color: white;
+}
+
+
+#place-time img{
+    max-width: 100%;
+}
+
+#conviertete-en-orador{
+    background-color: rgba(238,43,123,255);
+    font-size: larger;
+    color: black;
+}
+
+#colorboton{
+    background-color: black;
+    color: white;
+}
+
+/* --------------------- *\
+      footer
+\* --------------------- */
+
+#footer {
+    background: linear-gradient(90deg, #030003, #000000 25%, #0b010a);
+}
+
+#footer a {
+    color: white;
+}
+
+.navbar .navbar-brand {
+    display: flex;
+}
+
+/* --------------------- *\
+      Galeria
+\* --------------------- */
+
+#galeria .col-lg-4{
+    margin: 0 !important;
+    padding:  25px; 
+
+}
+
+#galeria img {
+    width: 100%;
+    height: 300px;
+
+}
+
+#galeria img:hover {
+    border: 5px solid #f7f7f7;
+}
+
